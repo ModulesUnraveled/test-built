@@ -5718,5 +5718,76 @@
         ],
         "description": "Provides a user interface for the Token API and some missing core tokens.",
         "homepage": "https://www.drupal.org/project/token"
+    },
+    {
+        "name": "drupal/inline_entity_form",
+        "version": "8.1.0-alpha6",
+        "version_normalized": "8.1.0.0-alpha6",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/inline_entity_form",
+            "reference": "27af4de9fd961fa6ae1369604d05fec8b06db867"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/inline_entity_form-8.x-1.0-alpha6.zip",
+            "reference": "27af4de9fd961fa6ae1369604d05fec8b06db867",
+            "shasum": null
+        },
+        "require": {
+            "drupal/core": "8.*"
+        },
+        "time": "2016-04-18 21:57:48",
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-8.x-1.x": "8.1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.drupal-composer.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "description": "Provides a widget for inline management (creation, modification, removal) of referenced entities. ",
+        "homepage": "https://www.drupal.org/project/inline_entity_form"
+    },
+    {
+        "name": "drupal/scheduled_updates",
+        "version": "8.1.0-alpha5",
+        "version_normalized": "8.1.0.0-alpha5",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/scheduled_updates.git",
+            "reference": "cdeceb8fd89a3644fb34a8a5bcc194ca7cbd84fe"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/scheduled_updates-8.x-1.0-alpha5.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "drupal/core": "8.*",
+            "drupal/inline_entity_form": "8.*",
+            "drupal/options": "8.*"
+        },
+        "time": "2016-01-24 17:16:43",
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-8.x-1.x": "8.1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.drupal-composer.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "description": "Create scheduled updates to field values on entities such content, users, and terms.",
+        "homepage": "http://drupal.org/project/scheduled_updates",
+        "keywords": [
+            "Drupal"
+        ]
     }
 ]
